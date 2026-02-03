@@ -1,3 +1,4 @@
+#!/bin/bash
 # Add this function to your ~/.zshrc or ~/.bash_profile, then source the file or open a new terminal
 
 reset_vscode() {
@@ -48,4 +49,5 @@ reset_vscode() {
     echo "To restore extensions later: copy from backup/Code/User/extensions/ to new folder"
 }
 
-# Usage: reset_vscode
+# Run the function
+reset_vscode
